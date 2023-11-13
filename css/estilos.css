@@ -1,0 +1,588 @@
+@charset "utf-8";
+/* CSS Document */
+/**********IR ARRIBA*******************/
+.ir-arriba{
+	border-radius: 15px 15px 0px 0px;
+-moz-border-radius: 15px 15px 0px 0px;
+-webkit-border-radius: 15px 15px 0px 0px;
+border: 0px solid #000000;
+	display:none;
+	padding:20px;
+	background:#E00;
+	font-size:20px;
+	color:#FFF;
+	cursor:pointer;
+	position:fixed;
+	bottom:0;
+	right:20px;}
+
+
+/**********IR ARRIBA*******************/
+html{
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	margin:0;
+	}
+
+body{
+	background-color:#5061a4;}
+#wrapper{
+	width:100%;}
+
+#header{
+	width:100%;
+	margin:0 auto;
+	}
+
+#cabeza{
+	width:100%;
+	margin:0 auto;
+	}
+#logo{
+	/*width:40%;*/
+	display: inline-block;
+    vertical-align: top;}
+	
+#menu{
+	width:100%;
+	margin:0 auto;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+	background-color:#ee0000;}
+#menu ul{
+	margin: 0;
+	padding: 0 0 0 13px;
+   }
+#menu li{
+    padding: 7px 14px 7px 17px;
+	display:inline-block;
+	vertical-align:top;
+	background-image:url(../imagenes/Plantilla/menuico.png);
+	background-position:left center;
+	background-repeat:no-repeat;}
+#menu a{
+	color:#fff;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;}
+#menu li:hover{
+	background-color:#80113a;}
+/***************************************/
+#menu ul li ul li{
+	
+	background-color:#ee0000;}
+
+/*************************/	
+
+#contenido{
+	width:100%;
+	margin:0 auto;}
+#contenido_index{
+	width:100%;
+	margin:0 auto;}
+#pie{
+	width:100%;
+	margin: 11px 0 0 0;
+    padding: 16px 0;
+	background-color:#FFF;
+	}
+#pie p{
+	margin-left: 4px;
+	width:98%;
+	display:inline-block;
+	vertical-align:top;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	color:#000;
+/*	text-align:center;*/
+	}
+	
+#contador{
+	width:15%;
+	display:inline-block;
+	vertical-align:top;}
+/*************************FIN PLANTILLA***************/
+
+#comentarios{
+	width:100%;}
+	
+#informa_bloque{
+	width:100%;
+	display:inline-block;
+	vertical-align:top;}
+
+#mensaje{
+	padding-bottom:25px;
+	background-color:#fff;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;}
+
+#mensaje h2{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size:40px;
+	font-weight:700;
+	color:#000;
+	margin: 20px 0px -14px 10px;}
+#mensaje p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	color:#000;
+	padding: 10px;}
+#mensaje a{
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	color:#000;
+	padding: 10px;}
+#imagen_contenido{
+	width:100%;
+}
+
+
+/************Action Replay*****************/
+#contenedor_caratulas{
+	width:98%;}
+
+#caratula_codigo{
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 13px;
+	width:200px;}
+	
+	
+/******************Eventos*********************/
+
+#anime1{
+	text-align:center;
+	width:98%;
+	margin-bottom:30px;
+	}
+#anime_desc{
+	padding-top: 50px;
+	width:35%;
+	display:inline-block;
+	vertical-align:top;
+	}
+	
+#anime_desc p{
+	color:#000;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	}
+	
+/*******************Peliculas*************/
+#contener_pelis{
+	text-align:center;}
+#caratula_peli{
+	padding:20px 0;
+	margin:0 auto;
+	width:30%;}
+#btn_descargas{}
+#btn_descargas a{
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+color: #fff;
+    text-decoration: none;
+    background-color: #005693;
+    padding: 10px 20px;
+}
+
+/******************Juegos*****************/
+#contenedor_game{
+	text-align:center;}
+#caratula_game{
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	padding:20px 0;
+	margin:0 auto;
+	width:30%;}
+#caratula_emu{
+	text-align:center;
+	padding:20px 0;
+	margin:0 auto;
+	width:48%;
+	
+}
+#caratula_android{
+	text-align:center;
+	padding:20px 0;
+	margin:0 auto;
+	width:90%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#caratula_and{
+	margin:18px 10px;
+	width:25%;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+#caratula_and h3{
+	color: #ee0000;
+	
+}
+
+/*****************Videoguias**************/
+#video_guia{
+	text-align:center;}
+#video_guia h3{
+	color:#F00;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;}
+	
+/***********************ZONA GAMER*************/
+
+#guia_gamer{
+	margin:20px;
+	display:inline-block;
+	vertical-align:top;
+	width:40%;}
+	
+	
+	
+/*************Codigos***********************/
+
+#codigo-activ{
+	text-align:center;
+	width:98%;}	
+#codigo-activ h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	text-align:center;}	
+#codigo1{
+	padding-right:7%;
+	width:30%;
+	display:inline-block;
+	vertical-align:top;}
+#codigo1 h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	text-align:center;}
+#codigo1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-align:center;}
+	
+#codigo2{
+	margin-left:2%;
+	width:30%;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 3px dotted #000000;
+	display:inline-block;
+	vertical-align:top;}
+#codigo2 h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	text-align:center;}
+#codigo2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-align:center;}
+	
+#codigo1-1{
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 3px dotted #000000;}
+
+/***********FRAME de YOUTUBE***************/
+#frames{
+	text-align:center;
+	width:100%;}
+	
+/***********MAGEARNA***************/
+
+#magear{
+	text-align:center;
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 13px;
+	width:98%;}
+
+/*****************REDES************/
+
+.fa-facebook-square:hover {
+color:#3B5998;
+text-decoration:none;
+}
+.fa-twitter-square:hover {
+color:#55acee;
+text-decoration:none;
+}
+.fa-youtube-square:hover{
+color:#dd4b39;
+text-decoration:none;
+}
+
+.fa-facebook-square {
+font-size: 52px;
+color: gray;
+text-decoration:none;
+}
+.fa-twitter-square {
+font-size: 52px;
+color: gray;
+text-decoration:none;
+}
+.fa-youtube-square {
+font-size: 52px;
+color: gray;
+text-decoration:none;
+}
+
+#pie_text{
+	width:70%;
+	display:inline-block;
+	vertical-align:top;
+	}
+
+#redes_icon{
+	width:28%;
+	display:inline-block;
+	vertical-align:top;}
+
+#pie_todo{
+	width:1000px;
+	margin:0 auto;}
+
+#abrir_archivos{
+	width:50%;
+	margin:0 auto;}
+/***********************LEGENDARIOS**********************/
+
+#fondo_legends{
+	width:98%;
+	text-align:center;}
+
+#legenda{
+	margin-bottom:15px;
+	width:45%;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:10px;}
+
+#legend_name{
+	text-align:center;
+	background-color:#3CF;
+	border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border: 0px solid #000000;
+	}
+
+#legend_name p{
+	font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	}
+
+#legend_info{
+	background-color:#CFF;
+	border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+border: 0px solid #000000;
+	}
+
+#imga_legend{
+	width:44%;
+	display:inline-block;
+	vertical-align:top;}
+
+#logo_legend{
+	text-align:center;
+	width:52%;
+	display:inline-block;
+	vertical-align:top;}
+
+#log1{
+	/*margin-right:15px;*/
+	width:29%;
+	display:inline-block;
+	vertical-align:top;}
+
+#log1 a{
+	padding:0;
+	margin:0;
+	}
+	
+#log1 img{
+	margin-bottom:10px;}
+
+/*#log2{
+	width:35%;
+	display:inline-block;
+	vertical-align:top;}
+	
+#log2 a{
+	padding:0;
+	margin:0;}
+
+#log2 img{
+	margin-bottom:10px;}*/
+	
+	
+/***************INDEX*************/
+#page-title {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+	text-shadow: 5px 5px 5px #000;
+}
+#content_cuadros{
+	text-align:center;}
+#cuadro_1{
+	margin-bottom:10px;
+	margin-right:10px;
+	display:inline-block;
+	vertical-align:top;}
+	
+/***********ESTILOS VIDEO DE FONDO**************/
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+	z-index:-1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+	
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+/***********ESTILOS VIDEO DE FONDO**************/
+
+/*************CONTADOR FECHA******************/
+
+#contador_fecha{
+	float:right;
+	display:inline-block;
+	vertical-align:top;
+	width:30%;
+	margin-left: 70px;}
+
+#contador_fecha p{
+	color:#fff;
+	font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight:bold;
+  font-size: 35px;
+  margin-top:0px;
+  z-index:1;
+  text-shadow: 5px 5px 5px #000;
+ -webkit-text-stroke: 2px #800000;
+  }
+
+#contador_fecha h4{
+	text-transform:uppercase;
+	 font-weight:bold;
+	margin:0;
+	font-size: 21px;
+	text-shadow: 5px 5px 5px #000;
+	-webkit-text-stroke: 2px #800000;
+	color:#fff;
+	font-family: 'Oswald', sans-serif;
+  text-align: center;}
+
+/*************CONTADOR FECHA******************/
+
+/**********SERIE GUIA****************/
+#serie_guia{
+	text-align: center;
+    width: 97%;
+}
+#serie1{
+	width: 30%;
+	text-align: center;
+	margin: 0 0 0 30px;
+	vertical-align: top;
+	display:inline-block;
+}
+#serie1 img{}
+/**********SERIE GUIA****************/
+
+/*************EQUIPOS POKEMON***********/
+#equipo_poke{
+	
+	width: 90%;
+	margin: 0 auto;
+}
+
+#juego_cara{
+	border: 5px inset #EE0000;
+border-radius: 10px 10px 10px 10px;
+	width: 29%;
+	vertical-align: top;
+	display:inline-block;
+}
+
+#poke_cara{
+	text-align: center;
+	/*border: 5px inset #1DB3EE;
+border-radius: 10px 10px 10px 10px;*/
+	width: 69%;
+	vertical-align: top;
+	display:inline-block;
+}
+
+#poke_team img{
+	width: 31%;
+	vertical-align: top;
+	display:inline-block;
+}
+
+#mensaje h3{
+	text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #e00;
+    margin: 0 auto;
+	text-align: center;
+}

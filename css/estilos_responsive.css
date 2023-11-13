@@ -1,0 +1,156 @@
+@media screen and (max-width : 1024px){
+	
+#menu{
+	width:100%;}
+
+#contenido{
+	width:100%;}
+
+#informa_bloque {
+    width: 100%;	
+}
+
+#caratula_game {
+    width: 29%;
+}
+
+#mensaje h2 {
+	font-size: 28px;}
+	
+#caratula_peli {
+    width: 50%;
+}
+
+#pie_todo{
+	width:100%;
+	}
+#cabeza{
+	width:100%;}
+	
+/**************Action replay*************/
+#contenedor_caratulas{
+	text-align:center;}
+	
+
+}
+
+
+@media screen and (max-width: 800px){
+	#contador_fecha{
+		float:none;
+		width:34%;}
+#informa_bloque {
+ width: 98%;	
+}
+#caratula_peli {
+    width: 50%;
+}
+
+#mensaje h2 {
+	font-size: 28px;}
+	
+#caratula_game {
+    width: 32%;
+}
+
+
+
+#guia_gamer {
+    width: 80%;
+}
+
+}
+	
+@media screen and (max-width: 798px){
+	#informa_bloque {
+
+    width: 98%;	
+}
+#comentarios{
+	width:98%;}
+
+#mensaje h2 {
+	font-size: 28px;}
+
+
+}
+
+
+
+
+@media screen and (max-width: 698px){
+	
+#abrir_archivos{
+	width:85%;
+	margin:0 auto;}
+
+
+}
+
+
+@media screen and (max-width: 610px){
+
+#cabeza{
+	text-align:center;}
+#pie_text{
+	width:100%;
+	display:block;}
+#pie_todo{
+	text-align:center;}
+#cabeza{
+	width:100%;}
+#logo{
+	width:70%;}
+	
+#caratula_game{
+	width:45%;}
+#redes_icon{
+	width:32%;}
+	
+#legenda{
+	width:95%;}
+#contador_fecha{
+	margin-left:0;
+	float:none;
+	width:81%;}
+}
+
+@media screen and (max-width: 489px){
+
+#caratula_game{
+	width:50%;}
+		
+#anime_desc{
+	width:70%;	
+}
+#redes_icon{
+	width:37%;}
+
+#abrir_archivos{
+	width:85%;
+	margin:0 auto;}
+	
+
+
+}
+
+@media screen and (max-width: 445px){
+
+#logo{
+	width:70%;}
+#redes_icon{
+	width:60%;}
+
+	
+}
+
+@media screen and (max-width: 390px){
+
+
+#caratula_game {
+    width: 56%;
+}
+
+#legenda{
+	width:95%;}
+}
